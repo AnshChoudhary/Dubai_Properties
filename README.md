@@ -1,47 +1,57 @@
-# Dubai_Properties
-SQL Project for Database Systems course. The database consists of 1900+ data for apartments in Dubai scrapped from real estate portal and includes information on various attributes for each property, such as neighborhood, number of bedrooms, quality, price, and more. The project can to be used by real estate companies, investors, or anyone interested in the Dubai property market.
+# Dubai Properties Exploration
 
-## Requirements
+This repository contains a Jupyter Notebook that explores various aspects of Dubai's property market. The notebook leverages data analysis and visualization techniques to provide insights into the trends and patterns within the real estate sector of Dubai.
 
-- SQL database management system (DBMS), such as MySQL or PostgreSQL
-- The script to create the database and tables
+## Features
+
+- **Data Analysis**: Explore property data with descriptive statistics and trend analysis.
+- **Visualizations**: Generate insightful visualizations to better understand market dynamics.
+- **Custom Insights**: Uncover unique patterns and insights in the Dubai property market.
+
+## Repository Contents
+
+- `Dubai Properties Exploration.ipynb`: The main Jupyter Notebook containing the analysis and visualizations.
+
+## Prerequisites
+
+To run this notebook, ensure you have the following installed:
+
+- Python 3.8+
+- Jupyter Notebook or JupyterLab
+- Required Python libraries (listed in `requirements.txt`)
 
 ## Installation
 
-1. Install the SQL DBMS of your choice.
-2. Create a new database in your DBMS.
-3. Run the SQL script to create the tables and insert the data into the database.
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/dubai-properties-exploration.git
+   cd dubai-properties-exploration
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Launch the Jupyter Notebook:
+   ```bash
+   jupyter notebook "Dubai Properties Exploration.ipynb"
+   ```
 
 ## Usage
 
-You can use the database to:
+1. Open the notebook in your preferred Jupyter environment.
+2. Run the cells sequentially to explore the analysis and visualizations.
+3. Modify the code to analyze your own datasets or adjust parameters for further exploration.
 
-- View the properties in each neighborhood
-- Search for properties based on specific attributes, such as number of bedrooms or price range
-- Analyze trends in the Dubai property market, such as average prices or popular neighborhoods
-- Create reports on properties for clients or investors
+## Example Visualizations
 
-## Database Structure
+This notebook includes visualizations such as:
 
-The database consists of the following tables:
+- Price trends over time
+- Distribution of property types
+- Geographic distribution of properties
 
-### Properties
+## Contributing
 
-- `id` (integer): unique identifier for each property
-- `neighborhood` (string): name of the neighborhood the property is located in
-- `price` (integer): price of the property in AED
-- `quality` (integer): a score from 1-10 indicating the quality of the property
-- `number_of_bedrooms` (integer): number of bedrooms in the property
-- `number_of_bathrooms` (integer): number of bathrooms in the property
-- `size_in_sqft` (integer): total area of the property in square feet
-- `private_pool` (boolean): indicates whether the property has a swimming pool (true or false)
-- `balcony` (boolean): indicates whether the property has a balcony (true or false)
-- `private_garden` (boolean): indicates whether the property has a garden (true or false)
-- `private_gym` (boolean): indicates whether the property has a gym (true or false)
-- `covered_parking` (boolean): indicates whether the property has a covered parking space (true or false)
-- `security` (boolean): indicates whether the property has security (true or false)
-- `latitude` (float): latitude of the property location
-- `longitude` (float): longitude of the property location
-
-
-
+Contributions are welcome! Feel free to open issues or submit pull requests to enhance this project.
