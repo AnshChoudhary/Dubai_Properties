@@ -2,6 +2,8 @@
 
 This repository contains a Jupyter Notebook that explores various aspects of Dubai's property market. The notebook leverages data analysis and visualization techniques to provide insights into the trends and patterns within the real estate sector of Dubai.
 
+![Dubai Properties](https://github.com/AnshChoudhary/Dubai_Properties/blob/main/dubai_props.png)
+
 ## Features
 
 - **Data Analysis**: Explore property data with descriptive statistics and trend analysis.
